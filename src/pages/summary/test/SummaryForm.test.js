@@ -9,7 +9,6 @@ describe('Summary form enables button when acceptance checkbox is ticked', () =>
 
     expect(acceptanceCheckbox).not.toBeChecked();
 
-    // fireEvent.click(acceptanceCheckbox);
   });
 
   test('A button is present but is disabled by default', () => {
@@ -38,4 +37,3 @@ describe('Summary form enables button when acceptance checkbox is ticked', () =>
   });
 });
 
-describe
